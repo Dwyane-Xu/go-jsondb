@@ -18,7 +18,7 @@ Install using `go get github.com/Dwyane-Xu/go-jsondb`
     }
     
     func main() {
-        db, err := jsondb.New("/Users/xujinzhao/许锦钊/程序/Go/go-jsondb/json-file", nil)
+        db, err := jsondb.New("dir", nil)
         if err != nil {
             fmt.Println("Error", err)
         }
